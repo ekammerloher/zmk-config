@@ -5,7 +5,7 @@
 # the `include` property, e.g:
 #
 board: [ "nice_nano_v2" ]
-shield: [ "redox_left", "redox_right" ]
+shield: [ "dactyl_ek" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
