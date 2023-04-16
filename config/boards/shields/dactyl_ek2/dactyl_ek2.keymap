@@ -13,9 +13,9 @@
 &kp H         &kp J     &kp K     &kp L     &none      &none
 &kp N         &kp M     &none     &none     &none      &none
                   &none     &none
-&none         &none
-&none         &none
-&bt BT_CLR    &none
+&SPACE        &BSPC
+&LEFT         &RIGHT
+&bt BT_CLR    &DOWN
             >;
         };
     };
