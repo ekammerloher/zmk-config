@@ -15,7 +15,7 @@
                   &kp GRAVE &kp BSLH                                              &kp LBKT  &kp RBKT
                                      &kp DEL     &kp SPACE      &kp SPACE     &kp BSPC
                                      &kp LGUI    &kp RET        &kp LEFT      &kp RIGHT
-                                     &bt BT_CLR  &kp LALT       &bt UP    &kp DOWN
+                                     &bt BT_CLR  &kp LALT       &kp UP    &kp DOWN
             >;
         };
     };
