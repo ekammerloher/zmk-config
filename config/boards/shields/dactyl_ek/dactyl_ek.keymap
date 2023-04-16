@@ -2,9 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    chosen {
-        zephyr,console = &cdc_acm_uart;
-    };
     keymap {
         compatible = "zmk,keymap";
 
@@ -20,13 +17,5 @@
                                      &kp CAPS  &kp LALT       &none    &none
             >;
         };
-    };
-};
-
-    &usbd {
-    status = "okay";
-    cdc_acm_uart: cdc_acm_uart {
-        compatible = "zephyr,cdc-acm-uart";
-        label = "cdc_acm_0";
     };
 };
