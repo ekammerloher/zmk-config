@@ -7,14 +7,15 @@
 
         default_layer {
             bindings = <
-                &kp NUM_0 &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5
-                &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp A &kp B
-                &kp C &kp D &kp E &kp F &kp G &kp H
-                &kp I &kp J &kp K &kp L &kp M &kp N
-                &kp O &kp P &kp Q &kp R &kp S &kp T
-                &kp U &kp V &kp W &kp X &kp Y &kp Z
-                &kp PLUS &kp MINUS
+    &kp N0   &kp N1    &kp N2   &kp N3    &kp N4    &kp N5
+    &kp N6   &kp N7    &kp N8   &kp N9    &kp A     &kp B
+    &kp C    &kp D    &kp E    &kp F     &kp G     &kp H
+    &kp I  &kp J    &kp K     &kp L     &kp M  &kp N
+              &kp O &kp P &kp Q  &kp R
+                                                      &kp S &kp T
+                                                                &kp U
+                                            &kp V &kp W  &kp X
             >;
         };
     };
-};;
+};
