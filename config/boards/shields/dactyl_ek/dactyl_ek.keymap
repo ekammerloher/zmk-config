@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include "config/behaviors/send_number.c"
 
 / {
     keymap {
@@ -7,14 +8,12 @@
 
         default_layer {
             bindings = <
-    &kp ESC   &kp N1    &kp N2   &kp N3    &kp N4    &kp N5
-    &kp TAB   &kp Q     &kp W    &kp E     &kp R     &kp T
-    &mo LCTRL &kp A     &kp S    &kp D     &kp F     &kp G
-    &kp LSHFT &kp Y     &kp X    &kp C     &kp V     &kp B
-              &kp GRAVE &kp BSLH &kp LEFT  &kp RIGHT
-                                                      &kp EQUAL &kp MINUS
-                                                                &kp GRAVE
-                                            &kp LCTRL &kp LALT  &kp LGUI
+                &send_number 1 &send_number 2 &send_number 3 &send_number 4 &send_number 5 &send_number 6
+                &send_number 7 &send_number 8 &send_number 9 &send_number 10 &send_number 11 &send_number 12
+                &send_number 13 &send_number 14 &send_number 15 &send_number 16 &send_number 17 &send_number 18
+                &send_number 19 &send_number 20 &send_number 21 &send_number 22 &send_number 23 &send_number 24
+                &send_number 25 &send_number 26 &send_number 27 &send_number 28 &send_number 29 &send_number 30
+                &send_number 31 &send_number 32 &send_number 33 &send_number 34 &send_number 35 &send_number 36
             >;
         };
     };
