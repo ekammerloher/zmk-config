@@ -8,11 +8,11 @@
 
         default_layer {
             bindings = <
-&kp N6        &kp N7    &kp N8    &kp N9    &kp N0     &none
-&kp Y         &kp U     &kp I     &kp O     &kp P      &none
-&kp H         &kp J     &kp K     &kp L     &none      &none
-&kp N         &kp M     &none     &none     &none      &kp RSHFT
-              &none     &none
+&kp N6        &kp N7    &kp N8    &kp N9    &kp N0     &kp MINS
+&kp Y         &kp U     &kp I     &kp O     &kp P      &kp BSLH
+&kp H         &kp J     &kp K     &kp L     &kp SCLN      &kp QUOT
+&kp N         &kp M     &kp COMMA &kp DOT   &kp SLSH      &kp RSHFT
+              &kp LBKT  &kp RBKT
 &kp SPACE     &kp BSPC
 &kp LEFT      &kp RIGHT
 &bt BT_CLR    &kp DOWN
