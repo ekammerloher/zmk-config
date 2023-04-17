@@ -1,5 +1,5 @@
 if SHIELD_DACTYL_EK2
 
 config ZMK_KEYBOARD_NAME
-    default "Dactyl EK"
+    default "Dactyl EK2"
 endif
