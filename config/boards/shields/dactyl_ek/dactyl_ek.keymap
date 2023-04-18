@@ -5,10 +5,20 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_sel1 {
             timeout-ms = <50>;
-            key-positions = <6 11>;
-            bindings = <&bt BT_CLR>;
+            key-positions = <1 11>;
+            bindings = <&bt BT_SEL 0>;
+        };
+        combo_sel2 {
+            timeout-ms = <50>;
+            key-positions = <2 11>;
+            bindings = <&bt BT_SEL 1>;
+        };
+        combo_sel3 {
+            timeout-ms = <50>;
+            key-positions = <3 11>;
+            bindings = <&bt BT_SEL 2>;
         };
     };
 };

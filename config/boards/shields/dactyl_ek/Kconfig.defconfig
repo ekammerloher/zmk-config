@@ -1,8 +1,4 @@
 if SHIELD_DACTYL_EK_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "Dactyl EK"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
