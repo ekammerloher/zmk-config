@@ -7,7 +7,7 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 5>;
+            key-positions = <6 11>;
             bindings = <&bt BT_CLR>;
         };
     };
