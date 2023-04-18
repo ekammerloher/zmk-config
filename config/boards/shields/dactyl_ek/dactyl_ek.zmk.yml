@@ -1,0 +1,11 @@
+file_format: "1"
+id: dactyl_ek
+name: Dactyl EK
+type: shield
+url: https://github.com/ekammerloher/zmk-config
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - dactyl_ek_left
+  - dactyl_ek_right
