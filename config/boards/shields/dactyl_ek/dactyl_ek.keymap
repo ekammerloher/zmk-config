@@ -20,7 +20,7 @@
             key-positions = <3 11>;
             bindings = <&bt BT_SEL 2>;
         };
-        combo_sel4 {
+        combo_esc {
             timeout-ms = <50>;
             key-positions = <0 11>;
             bindings = <&bt BT_CLR>;
@@ -52,7 +52,7 @@
                   &kp NONE &kp NONE                                           &kp NONE &kp NONE
                                     &kp NONE &kp NONE       &kp PLAY_PAUSE &kp NONE
                                     &kp NONE &kp NONE       &kp PREV_TRACK &kp NEXT_TRACK
-                                    &mo 0    &kp NONE       &kp VOLUME_UP &kp VOLUME_DOWN
+                                    &kp NONE &kp NONE       &kp VOLUME_UP &kp VOLUME_DOWN
             >;
         };
     };
